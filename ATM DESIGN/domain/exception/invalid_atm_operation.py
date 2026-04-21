@@ -1,0 +1,4 @@
+
+
+class InvalidATMOperationException(RuntimeError):
+    pass
