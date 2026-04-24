@@ -17,8 +17,6 @@ class PaymentService:
         self._ride_to_payment_id: dict = {}  # ride_id -> transaction_id
         self._counter = 1000
 
-
-
     def _generate_id(self) -> str:
         self._counter += 1
         return f"txn-{self._counter}"
